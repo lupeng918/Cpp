@@ -4,6 +4,7 @@ using namespace std;
 
 int main(){
     int arr[100][100] = {};
+    // x,y 表示数组元素的索引，num 表示要填写的数字，n 表示数组的宽度
     int x = 0, y = 0, num = 1, n;
     int dir[][2] = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
     int ind = 0;
